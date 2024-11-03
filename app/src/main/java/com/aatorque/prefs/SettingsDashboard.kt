@@ -11,8 +11,8 @@ import androidx.preference.EditTextPreference
 import androidx.preference.Preference
 import androidx.preference.PreferenceCategory
 import androidx.preference.PreferenceFragmentCompat
-import com.aatorque.stats.R
-import com.aatorque.stats.TorqueServiceWrapper
+import com.aatorque.carstats.R
+import com.aatorque.carstats.TorqueServiceWrapper
 import kotlinx.coroutines.launch
 import timber.log.Timber
 

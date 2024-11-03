@@ -154,7 +154,6 @@
     <string name="pref_data_element_settings">資料元素設定%1$d</string>
     <string name="pref_title_performance">標題%1$d</string>
     <string name="download_dialog">嘗試將此應用程式安裝為 Play 商店嗎？如果失敗，您可以嘗試使用 Kingstaler。</string>
-    <string name="force_update">強制升級</string>
     <string name="update_failed">檢查更新失敗</string>
     <string name="convert_minutes_seconds">秒轉換為分鐘</string>
     <string name="donate">請捐款！</string>

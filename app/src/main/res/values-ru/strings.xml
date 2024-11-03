@@ -103,7 +103,6 @@
 
     <!-- Fuzzy -->
     <string name="download_complete">Загрузка завершена</string>
-    <string name="force_update">Запустить апдейт</string>
     <string name="update_failed">Ошибка апдейта</string>
     <string name="donate">Пожертвовать</string>
     <string name="translate">Перевести</string>

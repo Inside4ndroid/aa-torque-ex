@@ -200,7 +200,7 @@
 
                 <androidx.fragment.app.FragmentContainerView
                     android:id="@+id/chartFrag"
-                    android:name="com.aatorque.stats.TorqueChart"
+                    android:name="com.aatorque.carstats.TorqueChart"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:elevation="1dp"
@@ -213,7 +213,7 @@
 
                 <androidx.fragment.app.FragmentContainerView
                     android:id="@+id/gaugeLeft"
-                    android:name="com.aatorque.stats.TorqueGauge"
+                    android:name="com.aatorque.carstats.TorqueGauge"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:elevation="1dp"
@@ -232,7 +232,7 @@
                 <androidx.fragment.app.FragmentContainerView
                     android:id="@+id/gaugeCenter"
                     android:clipChildren="false"
-                    android:name="com.aatorque.stats.TorqueGauge"
+                    android:name="com.aatorque.carstats.TorqueGauge"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:elevation="2dp"
@@ -250,7 +250,7 @@
 
                 <androidx.fragment.app.FragmentContainerView
                     android:id="@+id/gaugeRight"
-                    android:name="com.aatorque.stats.TorqueGauge"
+                    android:name="com.aatorque.carstats.TorqueGauge"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:elevation="1dp"
@@ -266,7 +266,7 @@
 
                 <androidx.fragment.app.FragmentContainerView
                     android:id="@+id/display1"
-                    android:name="com.aatorque.stats.TorqueDisplay"
+                    android:name="com.aatorque.carstats.TorqueDisplay"
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout="@layout/fragment_display"
@@ -280,7 +280,7 @@
 
                 <androidx.fragment.app.FragmentContainerView
                     android:id="@+id/display2"
-                    android:name="com.aatorque.stats.TorqueDisplay"
+                    android:name="com.aatorque.carstats.TorqueDisplay"
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout="@layout/fragment_display"
@@ -293,7 +293,7 @@
 
                 <androidx.fragment.app.FragmentContainerView
                     android:id="@+id/display3"
-                    android:name="com.aatorque.stats.TorqueDisplay"
+                    android:name="com.aatorque.carstats.TorqueDisplay"
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout="@layout/fragment_display"
@@ -306,7 +306,7 @@
 
                 <androidx.fragment.app.FragmentContainerView
                     android:id="@+id/display4"
-                    android:name="com.aatorque.stats.TorqueDisplay"
+                    android:name="com.aatorque.carstats.TorqueDisplay"
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout="@layout/fragment_display"

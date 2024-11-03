@@ -14,7 +14,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.graphics.drawable.DrawableCompat
 import androidx.preference.ListPreference
-import com.aatorque.stats.R
+import com.aatorque.carstats.R
 
 
 

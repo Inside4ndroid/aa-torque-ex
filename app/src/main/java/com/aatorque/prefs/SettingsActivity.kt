@@ -28,10 +28,10 @@ import androidx.lifecycle.lifecycleScope
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import com.aatorque.datastore.UserPreference
-import com.aatorque.stats.App
-import com.aatorque.stats.BuildConfig
-import com.aatorque.stats.CreditsFragment
-import com.aatorque.stats.R
+import com.aatorque.carstats.App
+import com.aatorque.carstats.BuildConfig
+import com.aatorque.carstats.CreditsFragment
+import com.aatorque.carstats.R
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.first
@@ -60,23 +60,7 @@ class SettingsActivity : AppCompatActivity(),
                             val downloadId = intent.getLongExtra(DownloadManager.EXTRA_DOWNLOAD_ID, -1L)
                             if (downloadId == -1L) return
                             val uri = (getSystemService(DOWNLOAD_SERVICE) as DownloadManager).getUriForDownloadedFile(downloadId)
-                            val intent = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-                                Intent(Intent.ACTION_INSTALL_PACKAGE).also {
-                                    it.data = uri
-                                    it.flags = Intent.FLAG_GRANT_READ_URI_PERMISSION or Intent.FLAG_ACTIVITY_NEW_TASK
-                                }
-                            } else {
-                                Intent(Intent.ACTION_VIEW).also {
-                                    it.setDataAndTypeAndNormalize(
-                                        uri,
-                                        "application/vnd.android.package-archive"
-                                    )
-                                    it.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-                                }
-                            }
-                            intent.putExtra(Intent.EXTRA_NOT_UNKNOWN_SOURCE, true)
-                            intent.putExtra(Intent.EXTRA_INSTALLER_PACKAGE_NAME, "com.android.vending")
-                            applicationContext.startActivity(intent)
+
                         }
                     }).setNegativeButton(android.R.string.cancel
                     ) { p0, p1 -> p0?.dismiss() }.show()
@@ -154,17 +138,6 @@ class SettingsActivity : AppCompatActivity(),
 
             R.id.action_credits -> {
                 launchFragment("credits", CreditsFragment())
-                true
-            }
-
-            R.id.force_update -> {
-                lifecycleScope.launch(Dispatchers.IO) {
-                    if (!checkUpdate(true)) {
-                        runOnUiThread {
-                            Toast.makeText(this@SettingsActivity, R.string.update_failed, Toast.LENGTH_SHORT).show()
-                        }
-                    }
-                }
                 true
             }
 

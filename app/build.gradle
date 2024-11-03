@@ -19,10 +19,10 @@ def ghPackage = "aa-torque"
 
 
 android {
-    namespace "com.aatorque.stats"
+    namespace "com.aatorque.carstats"
     compileSdk 34
     defaultConfig {
-        applicationId "com.aatorque.stats"
+        applicationId "com.aatorque.carstats"
         minSdkVersion 28
         targetSdkVersion 34
         versionCode versionMajor * 1000 + versionMinor * 100 + versionPatch * 10
@@ -35,6 +35,14 @@ android {
     }
     applicationVariants.configureEach {
         buildConfigField "String", "RELEASE_URL", "\"https://api.github.com/repos/${ghOwner}/${ghPackage}/releases/latest\""
+    }
+    signingConfigs {
+        release {
+            storeFile file("C:/Users/rob_w/MyFiles/RS4/aa-torque-master/keystore.jks")
+            storePassword "Rob1corey!!"
+            keyAlias "key0"
+            keyPassword "Rob1corey!!"
+        }
     }
     buildTypes {
         debug {
@@ -52,11 +60,11 @@ android {
             buildConfigField "boolean", "SIMULATE_METRICS", "true"
         }
         release {
-            debuggable true
+            debuggable false
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             resValue "string", "app_version", "${defaultConfig.versionName}"
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
         }
     }
     buildFeatures {
@@ -93,7 +101,8 @@ dependencies {
     // Replaced with updated SDK from "https://github.com/cupral/aauto-sdk.git" (as git-submodule)
     //implementation 'com.github.martoreto:aauto-sdk:v4.7'
     implementation project(path: ':speedviewlib', configuration: 'default')
-    implementation files('../lib/aauto.aar')
+    implementation 'com.github.martoreto:aauto-sdk:v4.6'
+    //implementation files('../lib/aauto.aar')
 
     implementation 'com.jjoe64:graphview:4.2.2'
     implementation 'com.github.christophesmet:android_maskable_layout:v1.3.1'
@@ -122,7 +131,7 @@ dependencies {
     implementation 'androidx.annotation:annotation:1.7.1'
     implementation "androidx.datastore:datastore:1.0.0"
     implementation 'com.google.protobuf:protobuf-java-util:3.25.1'
-    implementation 'rongi.rotate-layout:rotate-layout:3.0.0'
+    // implementation 'rongi.rotate-layout:rotate-layout:3.0.0'
     implementation 'androidx.databinding:databinding-runtime:8.2.2'
     // implementation 'com.google.dagger:hilt-android:2.48'
     //  kapt 'com.google.dagger:hilt-compiler:2.48'
@@ -163,6 +172,10 @@ dependencies {
     implementation 'androidx.compose.runtime:runtime-livedata'
 
     implementation "org.burnoutcrew.composereorderable:reorderable:0.9.6"
+
+    implementation 'androidx.car.app:app:1.7.0-beta02'
+
+
 }
 
 protobuf {

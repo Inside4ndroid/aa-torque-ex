@@ -155,7 +155,6 @@
     <string name="pref_data_element_settings">Impostazioni elemento dati %1$d</string>
     <string name="pref_title_performance">Titolo %1$d</string>
     <string name="download_dialog">Provo ad installare questa app come provenisse dal Play Store?  Se non funziona, prova ad utilizzare Kingstaller.</string>
-    <string name="force_update">Forza aggiornamento</string>
     <string name="update_failed">Controllo aggiornamento non riuscito</string>
     <string name="convert_minutes_seconds">Secondi in Minuti:Secondi</string>
     <string name="donate">Dona!</string>

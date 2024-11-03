@@ -8,7 +8,7 @@
 
         <import type="com.aatorque.datastore.MaxControl" />
 
-        <import type="com.aatorque.stats.ViewAdapterKt" />
+        <import type="com.aatorque.carstats.ViewAdapterKt" />
 
         <import type="kotlin.jvm.functions.Function2"/>
 
@@ -16,7 +16,7 @@
 
         <import type="kotlin.Pair" />
 
-        <import type="com.aatorque.stats.TorqueGaugeKt" />
+        <import type="com.aatorque.carstats.TorqueGaugeKt" />
 
         <import type="androidx.constraintlayout.widget.ConstraintLayout.LayoutParams" />
 
@@ -134,7 +134,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <com.aatorque.stats.TorqueSpeedometer
+            <com.aatorque.carstats.TorqueSpeedometer
                 android:id="@+id/dial"
                 style="@style/AppTheme.Car.Speedometer"
                 android:layout_width="0dp"

@@ -14,8 +14,8 @@ import androidx.preference.PreferenceCategory
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.SeekBarPreference
 import com.aatorque.datastore.UserPreference
-import com.aatorque.stats.NotiService
-import com.aatorque.stats.R
+import com.aatorque.carstats.NotiService
+import com.aatorque.carstats.R
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope

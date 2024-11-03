@@ -161,7 +161,6 @@
     <string name="pref_data_element_settings">Data element settings %1$d</string>
     <string name="pref_title_performance">Title %1$d</string>
     <string name="download_dialog">Try to install this app as the Play Store? If this fails you can try using Kingstaller.</string>
-    <string name="force_update">Force update</string>
     <string name="update_failed">Update check failed</string>
     <string name="convert_minutes_seconds">Seconds to Minutes:Seconds</string>
     <string name="donate">Please donate!</string>

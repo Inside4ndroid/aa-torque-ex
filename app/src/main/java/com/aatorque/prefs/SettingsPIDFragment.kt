@@ -17,8 +17,8 @@ import androidx.preference.SwitchPreferenceCompat
 import com.aatorque.datastore.Display
 import com.aatorque.datastore.MaxControl
 import com.aatorque.datastore.Screen
-import com.aatorque.stats.R
-import com.aatorque.stats.TorqueServiceWrapper
+import com.aatorque.carstats.R
+import com.aatorque.carstats.TorqueServiceWrapper
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope

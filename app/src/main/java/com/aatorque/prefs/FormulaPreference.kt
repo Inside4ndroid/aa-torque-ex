@@ -14,7 +14,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Spinner
 import androidx.preference.Preference
-import com.aatorque.stats.R
+import com.aatorque.carstats.R
 
 
 // A subclass of PreferenceDialogFragmentCompat that corresponds to ScriptPreference

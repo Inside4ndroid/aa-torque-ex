@@ -13,7 +13,7 @@ import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import androidx.fragment.app.Fragment
-import com.aatorque.stats.R
+import com.aatorque.carstats.R
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
 

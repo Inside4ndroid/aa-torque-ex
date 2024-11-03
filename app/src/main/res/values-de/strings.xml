@@ -153,7 +153,6 @@
     <string name="pref_data_element_settings">Tafel %1$d einstellen</string>
     <string name="pref_title_performance">Titel %1$d</string>
     <string name="download_dialog">Soll versucht werden, die App so zu installieren, als käme sie vom Google Play Store? Falls es fehlschlägt, können Sie es über KingInstaller versuchen.</string>
-    <string name="force_update">Update erzwingen</string>
     <string name="update_failed">Aktualisierung-Prüfung fehlgeschlagen</string>
     <string name="convert_minutes_seconds">Sekunden (s) nach Minuten &amp; Sekunden (MM:SS) umrechnen</string>
     <string name="donate">Spenden</string>

@@ -5,7 +5,7 @@
         <import type="android.graphics.Typeface" />
         <variable
             name="binding"
-            type="com.aatorque.stats.TorqueChart.LegendBinding" />
+            type="com.aatorque.carstats.TorqueChart.LegendBinding" />
         <variable
             name="font"
             type="Typeface" />

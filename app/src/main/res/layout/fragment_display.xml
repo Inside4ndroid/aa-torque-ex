@@ -4,7 +4,7 @@
 <data>
     <import type="android.graphics.Typeface" />
     <import type="androidx.constraintlayout.widget.ConstraintLayout.LayoutParams" />
-    <import type="com.aatorque.stats.ViewAdapterKt" />
+    <import type="com.aatorque.carstats.ViewAdapterKt" />
     <import type="android.view.Gravity" />
     <variable name="value" type="String"/>
     <variable name="iconText" type="String"/>

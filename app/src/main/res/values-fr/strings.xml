@@ -147,7 +147,6 @@
     <string name="pref_data_element_settings">Configuration de l\'élément de donnée %1$d</string>
     <string name="pref_title_performance">Titre %1$d</string>
     <string name="download_dialog">Essayez d\'installer cette application en tant que Play Store ? Si cela échoue, vous pouvez essayer d\'utiliser Kingstaller.</string>
-    <string name="force_update">Forcer la mise à jour</string>
     <string name="update_failed">La vérification de la mise à jour a échoué</string>
     <string name="convert_minutes_seconds">Secondes en minutes : secondes</string>
     <string name="donate">S\'il vous plaît, faites un don !</string>

@@ -57,7 +57,7 @@ import com.aatorque.datastore.Display
 import com.aatorque.datastore.Operation
 import com.aatorque.datastore.Screen
 import com.aatorque.datastore.UserPreferenceOrBuilder
-import com.aatorque.stats.R
+import com.aatorque.carstats.R
 import com.aatorque.ui.AppTheme
 import com.rarepebble.colorpicker.ColorPickerView
 import kotlinx.coroutines.CoroutineScope

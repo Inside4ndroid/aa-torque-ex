@@ -6,7 +6,7 @@ import android.util.AttributeSet
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.graphics.drawable.DrawableCompat
 import androidx.preference.Preference
-import com.aatorque.stats.R
+import com.aatorque.carstats.R
 import com.rarepebble.colorpicker.ColorPickerView
 
 class ColorPreference(context: Context, attributeSet: AttributeSet) : Preference(context, attributeSet) {
