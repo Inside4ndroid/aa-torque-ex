@@ -30,8 +30,9 @@ To use the application you must be added to the google play testing program to d
 
 you must then use this link to join the testers program and download the app from google play :
 
-[Join using android device](https://play.google.com/store/apps/details?id=com.aatorque.carstats)
-[Join using a web browser](https://play.google.com/apps/testing/com.aatorque.carstats)
+- [Join using android device](https://play.google.com/store/apps/details?id=com.aatorque.carstats)
+
+- [Join using a web browser](https://play.google.com/apps/testing/com.aatorque.carstats)
 
 ## Using
 - Open the AA Torque settings, grant all the rights it's requesting. If you don't do this, the app will NOT work.
