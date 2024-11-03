@@ -33,7 +33,6 @@
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -46,9 +45,8 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="com.google.android.gms.car.category.CATEGORY_PROJECTION" />
-                <action android:name="androidx.car.app.CarAppService"/>
-
                 <category android:name="com.google.android.gms.car.category.CATEGORY_PROJECTION_OEM" />
+                <action android:name="androidx.car.app.CarAppService"/>
             </intent-filter>
         </service>
         <service
