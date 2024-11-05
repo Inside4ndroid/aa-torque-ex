@@ -11,7 +11,7 @@
 
 Open Android Studio: Launch Android Studio on your machine.
 - Go to File > New > Project from Version Control.
-- Select your Version Control System (e.g., Git, GitHub, Bitbucket, etc.).
+- Select your Version Control System (e.g. GitHub.).
 - Enter Repository URL: Copy the repository URL and paste it into the URL field.
 - Choose Directory: Select a local directory where you want the project to be cloned.
 - Click "Clone": Android Studio will now clone the project from version control and set it up for you.
